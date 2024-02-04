@@ -1,4 +1,4 @@
-#🚀 Scalar 30 Days of Node.js Challenge Repository 🚀  <br>
+# 🚀 Scalar 30 Days of Node.js Challenge Repository 🚀  <br>
 Welcome to my repository for the Scalar 30 Days of Node.js Challenge!
 
 🌟 Introduction
