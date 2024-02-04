@@ -1,10 +1,10 @@
 # 🚀 Scalar 30 Days of Node.js Challenge Repository 🚀  <br>
 Welcome to my repository for the Scalar 30 Days of Node.js Challenge!
 
-🌟 Introduction
+## 🌟 Introduction  <br>
 This repository holds my solutions and implementations for the Scalar 30 Days of Node.js Challenge. Each day, I embark on a coding task related to Node.js, and here, I document my journey.
 
-📂 Structure  <br>
+## 📂 Structure  <br>
 Day 1: File Reader  <br>
 Day 2: File Writer   <br>
 Day 3: Shell Command execution  <br>
