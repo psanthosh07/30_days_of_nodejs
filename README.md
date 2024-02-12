@@ -14,7 +14,9 @@ Day 6 : Express Route Handling <br>
 Day 7 : Express Middleware <br>
 Day 8 : Express Error Handling<br>
 Day 9 : Node js MCQ<br>
-Day 10: Express Static Files
+Day 10: Express Static Files<br>
+Day 11: Express Authentication Middleware<br>
+Day 12: Express Rate Limiting <br>
 
 ![image](https://github.com/psanthosh07/30_days_of_nodejs/assets/58479203/3598e060-9d9b-4dee-b585-d4c9d5646cff)
 
