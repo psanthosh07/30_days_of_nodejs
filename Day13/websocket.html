@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebSocket Example</title>
+  </head>
+  <body>
+    <h1>WebSocket Example</h1>
+    <script>
+      const socket = new WebSocket(`ws://${window.location.host}`);
+
+      socket.addEventListener("open", (event) => {
+        console.log("WebSocket connection opened");
+
+        socket.send("Hello, WebSocket!");
+      });
+
+      socket.addEventListener("message", (event) => {
+        console.log(`Message from server: ${event.data}`);
+      });
+
+      socket.addEventListener("close", (event) => {
+        console.log("WebSocket connection closed");
+      });
+    </script>
+  </body>
+</html>
