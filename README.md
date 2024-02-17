@@ -20,7 +20,8 @@ Day 12: Express Rate Limiting <br>
 Day 13: Express WebSocket Integration<br>
 Day 14:  Express Caching Middleware <br>
 Day 15:  Express Logging Middleware<br>
-Day 16:  MongoDB Connection Setup
+Day 16:  MongoDB Connection Setup<br>
+Day 17:  Mongoose Schema and Model<br>
 
 ![image](https://github.com/psanthosh07/30_days_of_nodejs/assets/58479203/3598e060-9d9b-4dee-b585-d4c9d5646cff)
 
