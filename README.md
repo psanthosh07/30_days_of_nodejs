@@ -29,6 +29,8 @@ Day 21:  Nodejs Project Budilding <br>
 Day 22:  MongoDB CRUD Operations<br>
 Day 23:  Mongoose Population<br>
 Day 24:  Express Route for Product CRUD Operations<br>
+Day 25:  Mongoose Indexing<br>
+Day 26:  Aggregation Pipeline for Product Stats<br>
 
 ![image](https://github.com/psanthosh07/30_days_of_nodejs/assets/58479203/3598e060-9d9b-4dee-b585-d4c9d5646cff)
 
