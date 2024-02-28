@@ -1,23 +1,15 @@
-const WebSocket = require("ws");
+const express = require("express");
+const http = require("http");
+const setupWebSocketServer = require("./setupWebSocketServer");
 
-function setupWebSocketServer(server) {
-  const wss = new WebSocket.Server({ server });
+const app = express();
+const server = http.createServer(app);
 
-  wss.on("connection", function connection(ws) {
-    console.log("New WebSocket connection established");
+// Other Express middleware and route handlers
 
-    ws.on("message", function incoming(message) {
-      console.log("Received message:", message);
-      // Handle incoming messages here
+setupWebSocketServer(server, app); // Pass app instance to the setupWebSocketServer function
 
-      // Example: Broadcast the received message to all connected clients
-      wss.clients.forEach(function each(client) {
-        if (client !== ws && client.readyState === WebSocket.OPEN) {
-          client.send(message);
-        }
-      });
-    });
-  });
-}
-
-module.exports = setupWebSocketServer;
+const PORT = process.env.PORT || 3000; // Use port from environment variable or default to 3000
+server.listen(PORT, () => {
+  console.log(`Server started on port ${PORT}`);
+});
